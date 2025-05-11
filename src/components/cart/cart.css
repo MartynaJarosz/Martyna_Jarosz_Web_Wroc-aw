@@ -1,0 +1,12 @@
+.cart-container {
+    display: grid;
+    grid-template-columns: repeat(3, 200px 500px 200px);
+}
+
+.list-btn {
+    grid-column: 1;
+}
+
+.summary-btn {
+    grid-column: 3;
+}
